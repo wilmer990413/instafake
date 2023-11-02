@@ -7,9 +7,9 @@
       "contrasena": "",
       "avatar": "",
       "descripcion": "",
-      "seguidores": [/*ids de los usuarios que lo siugen*/],
+      "seguidores": [],
       "seguidos": [],
-      "posts": [ /*id de los postst*/ ]
+      "posts": [  ]
     }
   ],
   "posts": [
