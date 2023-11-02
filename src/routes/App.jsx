@@ -4,6 +4,7 @@ import Feed from "../pages/Feed"
 import Profile from "../pages/profile/Profile"
 import PostDetail from "../pages/PostDetail"
 import Login from "../pages/Login"
+import Register from "../pages/Register"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="profile" element={<Profile />}></Route>
         </Route>
         <Route path="login" element={<Login />}></Route>
+        <Route path="register" element={<Register />}></Route>
       </Routes>
     </BrowserRouter>
   )
