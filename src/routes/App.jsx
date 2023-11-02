@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Menu from "../components/Menu"
 import Feed from "../pages/Feed"
-import Profile from "../pages/Profile"
+import Profile from "../pages/profile/Profile"
 import PostDetail from "../pages/PostDetail"
 import Login from "../pages/Login"
 
