@@ -3,8 +3,8 @@ import Menu from "../components/Menu"
 import Feed from "../pages/Feed"
 import Profile from "../pages/profile/Profile"
 import PostDetail from "../pages/PostDetail"
-import Login from "../pages/Login"
-import Register from "../pages/Register"
+import Login from "../pages/login/Login"
+import Register from "../pages/register/Register"
 
 function App() {
 
