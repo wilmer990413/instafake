@@ -1,0 +1,68 @@
+.menu {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  &_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #FF7674;
+    font-size: 3.5rem;
+    color: white;
+  }
+}
+.modal {
+  background-color: pink;
+  width: 30%;
+  height: auto;
+  &_content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    &-close {
+      text-align: end;
+      font-size: 1.5rem;
+      width: 100%;
+    }
+    &-form {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    &_container {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_archivo {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      
+      .inputText {
+        height: 50px;
+        width: 200px;
+        text-align: center;
+        background-color: transparent;
+      }
+        &-file {
+          width: 150px;
+          height: 100px;
+          text-align: center;
+          padding-top: 25px;
+          .inputFile {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+          }
+        }
+      }
+    
+  }
+  }
+}

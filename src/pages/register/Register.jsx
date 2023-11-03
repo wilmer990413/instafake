@@ -1,6 +1,6 @@
 import React from 'react';
 import './Register.scss'; 
-import logo from '../../public/logo.png';
+import logo from '../../assets/logo.png';
 
 const Register = () => {
   return (
