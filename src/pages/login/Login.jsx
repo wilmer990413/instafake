@@ -1,6 +1,7 @@
 
 import React from 'react';
 import logo from '../../../public/logo.png';
+import { Link, useNavigate } from "react-router-dom";
 import './Login.scss'; 
 
 const Login = () => {
@@ -14,7 +15,7 @@ const Login = () => {
         <input type="password" />
         <button>Login</button>
         <div className="unete-text">
-        ¿No tienes cuenta? <u>Únete</u>
+        ¿No tienes cuenta? <Link to="/register"><u>Únete</u></Link>
       </div>
       </div>
       

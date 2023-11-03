@@ -1,6 +1,7 @@
 import React from 'react';
 import './Register.scss'; 
 import logo from '../../../public/logo.png';
+import { Link, useNavigate } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -19,7 +20,7 @@ const Register = () => {
         <textarea></textarea>
         <button className="git a">Crear Cuenta</button>
         <div className="unete-text">
-          ¿Ya tienes cuenta?<u>Inicia sesión</u>
+          ¿Ya tienes cuenta?<Link to="/login"><u>Inicia sesión</u></Link>
         </div>
       </div>
     </div>
