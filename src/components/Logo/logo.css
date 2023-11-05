@@ -1,0 +1,40 @@
+
+.headerLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.logoImg{
+    width: 190px;
+height: 36px;
+flex-shrink: 0;
+
+}
+.rightLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.right-like{
+    width: 27.119px;
+height: 24px;
+flex-shrink: 0;
+
+}
+.right-comentarios{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+
+}
+
+.svg-container:hover svg path {
+    stroke: #FF7674;
+  }
+  
+
+
+
+
