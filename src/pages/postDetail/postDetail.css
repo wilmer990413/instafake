@@ -1,9 +1,0 @@
-.contenedor{
-    width: 100%;
-    max-width: 450px;
-    margin: 20px auto;
-  }
-  
-  .contenedor > * {
-    margin-bottom: 20px;
-  }
