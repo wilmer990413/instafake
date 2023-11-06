@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "../components/Menu";
-import Feed from "../pages/Feed";
+
 import Profile from "../pages/profile/Profile";
 
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
 import PostDetail from "../pages/postDetail/PostDetail";
+import Feed from "../pages/feed/Feed";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="login" element={<Login />}></Route>
         <Route path="register" element={<Register />}></Route>
         <Route path="PostDetail" element={<PostDetail />}></Route>
+        <Route path="Feed" element={<Feed />}></Route>
       </Routes>
     </BrowserRouter>
   );
