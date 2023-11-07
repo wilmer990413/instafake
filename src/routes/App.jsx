@@ -24,9 +24,3 @@ function App() {
 }
 
 export default App
-// -- 0. configurar la arquitectura del proyecto
-// -- 1. configurar chakra
-// -- 2. configurar rutas
-// -- 3. crear componentes
-// -- 4. implementar json server
-// 5. implementamos useReducer

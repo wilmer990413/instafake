@@ -1,24 +1,47 @@
 {
-  "users": [
+  "usuarios": [
     {
-      "id": 1,
-      "nombre": "",
+      "id": "",
+      "username": "",
+      "nommbre": "",
+      "apellido": "",
       "correo": "",
-      "contrasena": "",
-      "avatar": "",
-      "descripcion": "",
-      "seguidores": [],
-      "seguidos": [],
-      "posts": [  ]
+      "password": "",
+      "url_foto": "",
+      "guardado":[
+        {
+          "id_post": ""
+        }
+      ]
     }
   ],
-  "posts": [
+  "publicaciones": [
     {
-      "id": 1,
-      "userId": "",
-      "tipo": "foto, video, album o tag",
-      "likes": 0,
-      "comentarios": [{"userId": 1, "texto": ""}]
+      "id": "",
+      "id_user": "",
+      "tipo": "",
+      "url_archivo": "",
+      "descripcion": "",
+      "likes":[
+        {
+          "id_user": ""
+        }
+      ],
+      "nro_comentarios":"",
+      "fecha":"",
+      "tags":[
+        {
+          "username": ""
+        }
+      ]
+    }
+  ],
+  "comentarios": [
+    {
+      "id":"",
+      "id_publicacion":"",
+      "id_user": "",
+      "comentario":""
     }
   ]
-}
+}  
