@@ -1,47 +1,47 @@
 {
   "usuarios": [
     {
-      "id": "",
-      "username": "",
-      "nommbre": "",
-      "apellido": "",
-      "correo": "",
-      "password": "",
-      "url_foto": "",
+      "id": "1",
+      "username": "2",
+      "nommbre": "3",
+      "apellido": "4",
+      "correo": "5",
+      "password": "6",
+      "url_foto": "8",
       "guardado":[
         {
-          "id_post": ""
+          "id_post": "7"
         }
       ]
     }
   ],
   "publicaciones": [
     {
-      "id": "",
-      "id_user": "",
-      "tipo": "",
-      "url_archivo": "",
-      "descripcion": "",
+      "id": "1",
+      "id_user": "a",
+      "tipo": "3",
+      "url_archivo": "2",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque id erat at blandit. Donec ullamcorper turpis vitae dolor lacinia mollis. Donec at augue eget ipsum porttitor interdum",
       "likes":[
         {
-          "id_user": ""
+          "id_user": "1"
         }
       ],
-      "nro_comentarios":"",
-      "fecha":"",
+      "nro_comentarios":"87K",
+      "fecha":"1",
       "tags":[
         {
-          "username": ""
+          "username": "1"
         }
       ]
     }
   ],
   "comentarios": [
     {
-      "id":"",
-      "id_publicacion":"",
-      "id_user": "",
-      "comentario":""
+      "id":"3",
+      "id_publicacion":"3",
+      "id_user": "3",
+      "comentario":"3"
     }
   ]
 }  

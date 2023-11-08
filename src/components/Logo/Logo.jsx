@@ -3,6 +3,7 @@ import logo from "../../img/LOGO.PNG";
 import Like from "../../img/Like.PNG";
 import comentarios from "../../img/comentarios.PNG";
 import "./logo.css";
+import { Link } from "react-router-dom";
 
 function Logo() {
   return (
@@ -13,7 +14,6 @@ function Logo() {
         </div>
         <div className="rightLogo">
           <img src={Like} alt="" className="right-like" />
-
           <img src={comentarios} alt="" className="right-comentarios" />
         </div>
       </div>

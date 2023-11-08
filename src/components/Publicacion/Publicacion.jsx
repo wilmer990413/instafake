@@ -4,8 +4,10 @@ import Like from "../../img/Like.PNG";
 import comentarios from "../../img/comentarios.PNG";
 import Compartir from "../../img/Compartir.PNG";
 import Guardar from "../../img/Guardar.PNG";
+import useServidorJSON from "../../hooks/useServidorJSON";
 
 const Publicacion = () => {
+  const { data } = useServidorJSON();
   return (
     <>
       <div className="profile-card">

@@ -4,6 +4,7 @@ import Logo from "../../components/Logo/Logo";
 import Historia from "../../components/Historias/Historia";
 import Publicacion from "../../components/Publicacion/Publicacion";
 import Footer from "../../components/footer/Footer";
+
 import "./feed.css";
 
 const Feed = () => {
@@ -15,6 +16,7 @@ const Feed = () => {
         <Historia />
         <Publicacion />
         <Footer />
+        {/* vistas de otros componentes */}
       </div>
     </>
   );
