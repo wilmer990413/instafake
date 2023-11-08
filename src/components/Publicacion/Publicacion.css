@@ -1,0 +1,135 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+/* Estilos del encabezado */
+.profile-header {
+    display: flex;   
+     align-items: center;
+    padding: 1rem;
+  
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-fit: cover;
+    border: 3px solid #FF7674;
+}
+
+.profile-info {
+    margin-left: 1rem;
+}
+
+.profile-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap; /* Evita que el texto se desborde en pantallas pequeñas */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega puntos suspensivos para texto largo */
+}
+
+.profile-username {
+    font-size: 0.875rem;
+    color: #666;
+    white-space: nowrap; /* Evita que el texto se desborde en pantallas pequeñas */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega puntos suspensivos para texto largo */
+}
+
+.profile-img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+/* Estilos de la descripción */
+.profile-description {
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #333;
+
+    
+  
+}
+.description-name{
+   font-size: 15px;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+/* Estilos de las acciones */
+.profile-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.profile-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.action-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    fill: #666;
+    
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center;
+
+  }
+  .icon-Guardar{  
+    width: 28px; /* Aumenta el ancho en 20px */
+    height: 34px; /* Aumenta la altura en 20px */
+  }
+  
+
+ 
+  
+
+/* Estilos para modo oscuro */
+.dark .profile-card {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark .profile-name {
+    color: #fff;
+}
+
+.dark .profile-username {
+    color: #999;
+}
+
+.dark .profile-description {
+    color: #fff;
+    
+}
+
+.dark .action-icon {
+    fill: #999;
+}

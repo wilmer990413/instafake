@@ -1,0 +1,162 @@
+/* Estilos generales */
+.App{
+    width: 100%;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Balsamiq Sans';
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1284px; /* Ancho de la pantalla del iPhone 13 Pro Max */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la sección de la publicación */
+  .post {
+    position: relative;
+    background-color: rgba(250, 230, 223, 0.3);
+  }
+  
+  /* Estilos para los iconos */
+  .icons {
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    display: flex;
+    align-items: center;
+  }
+
+  .fasfa-arrow-left{
+    padding-right: 320px;
+  }
+
+  
+  /* Estilos para la imagen de la publicación */
+  .image {
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .image img {
+    width: 100%;
+    max-height: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  /* Estilos para el texto de la publicación */
+  .caption {
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 0 5px;
+  }
+  
+  .rectangle {
+    width: 80%;
+    position: absolute;
+    align-items: center;
+    top: 63%;
+    left: 19%;
+  }
+  
+  .background-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical según sea necesario */
+    left: 10px; /* Ajusta la posición horizontal según sea necesario */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .perfil3{
+    margin-right: 5px;
+  }
+  .nomperfil {
+    margin-right: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Espacio entre las secciones */
+  }
+  
+  .likes,
+  .comments,
+  .share {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a columna para que los elementos se ubiquen verticalmente */
+    align-items: center;
+    margin-right: 12px; 
+  }
+  .profile img {
+    width: 50px; /* Ancho de la imagen de perfil */
+    height: 50px; /* Alto de la imagen de perfil */
+    border-radius: 50%; /* Para hacerla circular */
+  }
+  
+  .likes img,
+  .comments img,
+  .share img {
+    width: 20px; /* Ancho de los iconos */
+    height: 20px; /* Alto de los iconos */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+  }
+
+  .comentario {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img {
+    margin-left: 10px;
+    margin-right: 10px; /* Espacio entre la imagen "profile2.png" y el contenido */
+  }
+  
+  .content1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 85%;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px; /* Diseño redondeado */
+    background-color: rgba(255, 255, 255, 1); /* Color de fondo */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 0;
+  }
+  
+  .imgflecha {
+    position: absolute;
+    right: 10px; /* Espacio desde el borde derecho */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; /* Para estar encima del input */
+  }
