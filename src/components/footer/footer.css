@@ -1,16 +1,10 @@
-.img{
-  width: 100%;
-height: 57px;
-flex-shrink: 0;
-border-radius: 10px;
 
-}
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px; /* Añade un espaciado adicional si es necesario */
-  z-index: 1000; /* Ajusta el valor de z-index según tus necesidades */
+
+
 }
 
 .circle {
@@ -18,7 +12,7 @@ border-radius: 10px;
   height: 70px;
   border-radius: 50%;
   background-color: #FF7674;
-  margin-bottom: -60px;
+  margin-bottom: -55px;
 }
 
 .circle img {
@@ -31,4 +25,35 @@ border-radius: 10px;
   align-items: center;
   
 }
+.iconos{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
 
+  margin-top: -65px;
+
+}
+
+.iconos-left{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 30px;
+
+ 
+}
+
+.iconos-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 30px;
+}
+
+.img{
+  width: 100%;
+  height: 57px;
+  border-radius: 10px;
+}
