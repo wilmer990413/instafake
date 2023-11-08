@@ -1,12 +1,12 @@
 {
   "usuarios": [
     {
-      "id": "",
-      "username": "",
-      "nommbre": "",
-      "apellido": "",
-      "correo": "",
-      "password": "",
+      "id": 1,
+      "username": "wilmercala",
+      "nommbre": "Wilmer Rodolfo",
+      "apellido": "Castro Ladino",
+      "correo": "wilmer@gmail.com",
+      "password": "123",
       "url_foto": "",
       "guardado":[
         {
