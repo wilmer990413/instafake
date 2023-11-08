@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Menu from "../components/Menu"
 import Feed from "../pages/Feed"
 import Profile from "../pages/profile/Profile"
-import PostDetail from "../pages/PostDetail"
+import PostDetail from "../pages/postDetail/PostDetail"
 import Login from "../pages/login/Login"
 import Register from "../pages/register/Register"
 import { useAuth } from '../data/userContext';
